@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<resources>
+    <string name="app_name">File Reader</string>
+
+    <string name="main_title">Welcome</string>
+    <string name="main_fileTypes">Supported file types</string>
+
+    <string name="pdf_page">{page} / {max}</string>
+
+    <string-array name="main_supportedFileTypes">
+        <item>PDF</item>
+        <item>Text</item>
+        <item>Javascript</item>
+        <item>HTML</item>
+        <item>CSV</item>
+        <item>CSS</item>
+        <item>XML</item>
+        <item>JSON</item>
+    </string-array>
+</resources>
