@@ -5,9 +5,6 @@
 
     <string name="main_title">Welcome</string>
     <string name="main_fileTypes">Supported file types</string>
-
-    <string name="pdf_page">{page} / {max}</string>
-
     <string-array name="main_supportedFileTypes">
         <item>PDF</item>
         <item>Text</item>
@@ -18,4 +15,19 @@
         <item>XML</item>
         <item>JSON</item>
     </string-array>
+
+    <string name="pdf_page">{page} / {max}</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_about">About</string>
+    <string name="settings_about_licenses">Used software</string>
+    <string name="settings_about_licenses_info">View software used by Petrol Index</string>
+    <string name="settings_about_github">Repository</string>
+    <string name="settings_about_github_info">View app on GitHub</string>
+    <string name="settings_about_issues">Report bugs</string>
+    <string name="settings_about_issues_info">Report bugs on GitHub</string>
+    <string name="settings_about_more">More info</string>
+    <string name="settings_about_more_info">View app in system settings</string>
+    <string name="settings_info_version">Version {arg}</string>
+    <string name="settings_info_copyright">© 2025-{arg} Christian-2003</string>
 </resources>

@@ -1,9 +1,6 @@
 package de.christian2003.filereader.view.text
 
 import android.app.Application
-import android.database.Cursor
-import android.net.Uri
-import android.provider.OpenableColumns
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
@@ -12,6 +9,7 @@ import androidx.lifecycle.viewModelScope
 import de.christian2003.filereader.model.FileInfo
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+
 
 class TextViewModel(application: Application): AndroidViewModel(application) {
 

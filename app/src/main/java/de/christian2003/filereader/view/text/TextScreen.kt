@@ -28,7 +28,8 @@ import de.christian2003.filereader.R
 @Composable
 fun TextScreen(
     viewModel: TextViewModel,
-    onNavigateUp: () -> Unit
+    onNavigateUp: () -> Unit,
+    onNavigateToSettings: () -> Unit
 ) {
     Scaffold(
         topBar = {
@@ -47,6 +48,17 @@ fun TextScreen(
                     ) {
                         Icon(
                             painter = painterResource(R.drawable.ic_back),
+                            tint = MaterialTheme.colorScheme.onSurface,
+                            contentDescription = ""
+                        )
+                    }
+                },
+                actions = {
+                    IconButton(
+                        onClick = onNavigateToSettings
+                    ) {
+                        Icon(
+                            painter = painterResource(R.drawable.ic_settings),
                             tint = MaterialTheme.colorScheme.onSurface,
                             contentDescription = ""
                         )
